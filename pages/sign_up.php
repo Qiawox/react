@@ -37,6 +37,8 @@
     const password = $('input.password').val();
     const c_password = $('input.confirm_password').val();
     console.log(name, email, password, c_password);
+    localStorage.setItem('email', email);
+    localStorage.setItem('password', password);
     $.ajax({
       method: 'POST',
       url: 'reg.php',
