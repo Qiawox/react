@@ -21,7 +21,7 @@
       <p><span>Name:</span> <?php echo $user['name'] ?></p><br>
       <p><span>Email:</span> <?php echo $user['email'] ?></p><br>
       <form action="test.php" class="game">
-        <button class="start">Начать тест</button>
+        <button class="start">Start</button>
       </form>
     </div>
     <div class="state">
