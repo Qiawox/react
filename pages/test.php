@@ -11,7 +11,7 @@
 <span style="color: green" id="correct">0</span> / <span style="color: red" id="incorrect">0</span><br>
 <span id="task"></span>
 <input type="text" id="answer">
-<input type="button" value="Ответить" onclick="check()">
+<input type="button" value="Reply" onclick="check()">
 <script>
 function gen() {
     var a = (Math.round(Math.random() * 7) + 2), b = (Math.round(Math.random() * 7) + 2);
