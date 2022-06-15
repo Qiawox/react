@@ -26,7 +26,28 @@
     </div>
     <div class="state">
       <h1>Statistics</h1>
+      <div class="s1">
+        <h3>Last</h3>
+        <div class="result"></div>
+      </div>
+      <div class="s2">
+        <h3>All</h3>
+        <div class="results">
+
+        </div>
+      </div>
     </div>
   </div>
+  <script>
+    const fromStorage = localStorage.getItem('result');
+    if (fromStorage) {
+      document.querySelector('.result').innerHTML = fromStorage;
+    }
+
+    const gou = localStorage.getItem('gou');
+      document.querySelector('.results').style.display = 'inline-block';
+      document.querySelector('.results').innerHTML = gou;
+
+  </script>
 </body>
 </html>
