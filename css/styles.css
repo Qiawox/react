@@ -229,3 +229,144 @@ input[type="button"]:hover {
     filter: brightness(.8);
     transition: .3s all;
 }
+.sv
+{
+    width: 7%;
+    align-self: center;
+    padding: 10px;
+    background-color: cornflowerblue;
+    border: 0px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 20px;
+    font-family: 'Oxygen', sans-serif;
+    transition: 0.3s all;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s all;
+}
+.sv:hover
+{
+    filter: brightness(.8);
+    transition: .3s all;
+}
+.ex
+{
+    width: 7%;
+    align-self: center;
+    padding: 10px;
+    background-color: cornflowerblue;
+    border: 0px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 20px;
+    font-family: 'Oxygen', sans-serif;
+    transition: 0.3s all;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s all;
+}
+.ex:hover
+{
+    filter: brightness(.8);
+    transition: .3s all;
+}
+.ab
+{
+    width: 7%;
+    align-self: center;
+    padding: 10px;
+    background-color: cornflowerblue;
+    border: 0px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 20px;
+    font-family: 'Oxygen', sans-serif;
+    transition: 0.3s all;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s all;
+}
+.ab:hover
+{
+    filter: brightness(.8);
+    transition: .3s all;
+}
+#correct
+{
+    font-size: 72px;
+}
+#incorrect
+{
+    font-size: 72px;
+}
+#space
+{
+    font-size: 72px;
+}
+.check
+{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.round
+{
+    text-align: center;
+}
+#task
+{
+    font-size: 34px;
+    color: cornflowerblue;
+    min-height: 100%;
+    left: 24%;
+    position: absolute;
+    top: 27%;
+}
+.task
+{
+    display: inline-block;
+    min-height: 100%;
+}
+.result span
+{
+    font-size: 30px!important;
+}
+.results span
+{
+    font-size: 30px!important;
+}
+.s1
+{
+    display: inline-block;
+    float: left;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.s1 h3
+{
+    text-align: center;
+}
+.s2
+{
+    display: inline-block;
+    float: right;
+    margin-right: 250px;
+    margin-top: 50px;
+}
+.results
+{
+    overflow: scroll;
+    max-height: 100px;
+}
+.gou
+{
+    display: block;
+}
+.mant
+{
+    display: none;
+}
