@@ -20,6 +20,7 @@
       <label>Confirm Password</label><br>
       <input type="password" class="confirm_password"><br>
       <button class="reg">Sign Up</button>
+      <p>Already have an account?<a href="sign_in.php"> Login!</a> or exit<a href="../index.html"> to main</a></p>
     </form>
     <div id="result"></div>
   </div>
