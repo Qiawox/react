@@ -18,6 +18,7 @@ body {
     align-items: center;
     background: #e1e1e1;
 }
+
 .main a {
     font-size: 40px;
     font-family: 'Oxygen', sans-serif;
@@ -368,4 +369,20 @@ input[type="button"]:hover {
 .mant
 {
     display: none;
+}
+.sign_up p
+{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+}
+.sign_up p a
+{
+    color: cornflowerblue;
+    transition: 0.3s all;
+}
+.sign_up p a:hover
+{
+    color: darkblue;
+    transition: 0.3s all;
 }
